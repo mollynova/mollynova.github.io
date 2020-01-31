@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+   
+  
+</head>
+
+<body>
+  
+<div id="main">
+    
+<div data-sr> one </div>
+<div data-sr> two </div>
+<div data-sr> three </div>
+
+</div>
+
+<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+  
+<script>
+ 
+// Changing the defaults
+window.sr = ScrollReveal({ reset: true });
+
+// Customizing a reveal set
+sr.reveal('div', {opacity: 0.9,duration:3000});
+
+</script>
+
+</body>
+
+</html>
